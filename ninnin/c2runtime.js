@@ -25566,8 +25566,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.CompareFrame,
 	cr.plugins_.Audio.prototype.cnds.IsTagPlaying,
 	cr.plugins_.Audio.prototype.acts.SetMuted,
-	cr.plugins_.Touch.prototype.cnds.OnHoldGestureObject,
 	cr.plugins_.Sprite.prototype.acts.SetScale,
-	cr.plugins_.Mouse.prototype.cnds.IsOverObject
+	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
+	cr.plugins_.Touch.prototype.cnds.OnHoldGestureObject
 ];};
 
